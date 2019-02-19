@@ -1,0 +1,6 @@
+1、登录git，new一个仓库、创建成功，复制地址
+2、在要上传的文件附近，新建一个空的文件夹
+3、打开git hash软件，这是一个命令工具，在刚才新建的文件夹下，同时按下ctrl+shift+鼠标右键，点击git bash here，执行命令：git clone +刚复制的网址
+4、将要上传的文件，复制到刚才新建的文件夹中，执行命令：cd到文件夹 再 git add *
+5、git commit -m 'hhh'
+6、git push -u origin master，此时弹窗填写账号密码（若已登录就不弹窗），此时在git官网上已经显示上传的文件了。
